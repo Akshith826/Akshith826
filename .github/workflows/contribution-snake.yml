@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "17 18 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -16,16 +16,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Generate the animated contribution snake
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Akshith826
           outputs: |
-            dist/github-contribution-snake.svg?palette=github-dark
+            dist/github-contribution-snake.svg
+            dist/github-contribution-snake-dark.svg?palette=github-dark
 
-      - name: Commit generated SVG
-        uses: EndBug/add-and-commit@v9
+      # 3. Publish generated files to the output branch
+      - name: Publish snake
+        uses: crazy-max/ghaction-github-pages@v5
         with:
-          add: "dist/github-contribution-snake.svg"
-          default_author: github_actions
-          message: "chore: update contribution snake"
+          build_dir: dist
+          target_branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
