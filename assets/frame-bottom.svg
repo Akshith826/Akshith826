@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 90">
+<rect x="2" y="2" width="1396" height="86" rx="10" fill="none" stroke="#334155" stroke-width="2"/>
+<path d="M30 45 H170 M1230 45 H1370" stroke="#60a5fa" stroke-width="4" stroke-dasharray="14 10">
+  <animate attributeName="stroke-dashoffset" values="0;96" dur="3s" repeatCount="indefinite"/>
+</path>
+<path d="M170 45 L205 75 H1195 L1230 45" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="9 8">
+  <animate attributeName="stroke-dashoffset" values="0;-85" dur="4s" repeatCount="indefinite"/>
+</path>
+<path d="M30 45 V70 H170 M1370 45 V70 H1230" fill="none" stroke="#22d3ee" stroke-width="3"/>
+</svg>
