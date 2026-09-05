@@ -160,11 +160,23 @@ A web application where authenticated users provide brand details, choose a logo
 
 <div align="center">
 
-<img
-  src="https://raw.githubusercontent.com/Akshith826/Akshith826/main/dist/github-contribution-snake.svg"
-  alt="Akshith Ambatipudi GitHub contribution snake"
-  width="100%"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Akshith826/Akshith826/output/github-contribution-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Akshith826/Akshith826/output/github-contribution-snake.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/Akshith826/Akshith826/output/github-contribution-snake.svg"
+    alt="GitHub contribution snake"
+    width="100%"
+  />
+</picture>
 
 </div>
 
