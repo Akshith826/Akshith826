@@ -160,19 +160,13 @@ A web application where authenticated users provide brand details, choose a logo
 
 <div align="center">
 
-### Contribution Activity
-
-<img src="https://ghchart.rshah.org/3b82f6/Akshith826" alt="GitHub contribution calendar" width="100%"/>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/Akshith826/Akshith826/main/assets/github-contribution-snake-dark.svg" alt="Animated GitHub contribution snake" width="100%"/>
+<img
+  src="https://raw.githubusercontent.com/Akshith826/Akshith826/main/dist/github-contribution-snake.svg"
+  alt="Akshith Ambatipudi GitHub contribution snake"
+  width="100%"
+/>
 
 </div>
-
-> The contribution snake is generated automatically from my real GitHub activity.
-
----
 
 ## `06` · REPOSITORY ANALYTICS
 
