@@ -39,41 +39,52 @@ I enjoy taking ideas from
 <br/>
 
 <!-- ========================================================= -->
-<!-- SOCIAL LINKS                                              -->
+<!-- SOCIAL LINKS -->
 <!-- ========================================================= -->
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/akshith-ambatipudi-8ba361315" target="_blank">
-  <img
-    src="https://cdn.simpleicons.org/linkedin/0A66C2"
-    width="48"
-    height="48"
-    alt="LinkedIn"
-  />
+<table>
+<tr>
+
+<td align="center">
+
+<a href="https://www.linkedin.com/in/akshith-ambatipudi-8ba361315">
+<img
+src="https://cdn.simpleicons.org/linkedin/0A66C2"
+width="48"
+alt="LinkedIn"
+/>
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
+
+<td align="center">
 
 <a href="mailto:ambatipudi.akshith@gmail.com">
-  <img
-    src="https://cdn.simpleicons.org/gmail/EA4335"
-    width="48"
-    height="48"
-    alt="Gmail"
-  />
+<img
+src="https://cdn.simpleicons.org/gmail/EA4335"
+width="48"
+alt="Gmail"
+/>
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+</td>
 
-<a href="https://github.com/Akshith826" target="_blank">
-  <img
-    src="https://cdn.simpleicons.org/github/F8FAFC"
-    width="48"
-    height="48"
-    alt="GitHub"
-  />
+<td align="center">
+
+<a href="https://github.com/Akshith826">
+<img
+src="https://cdn.simpleicons.org/github/F8FAFC"
+width="48"
+alt="GitHub"
+/>
 </a>
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
