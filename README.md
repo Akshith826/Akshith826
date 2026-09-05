@@ -51,8 +51,9 @@ I enjoy taking ideas from
 
 <a href="https://www.linkedin.com/in/akshith-ambatipudi-8ba361315">
 <img
-src="https://cdn.simpleicons.org/linkedin/0A66C2"
-width="48"
+src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+width="50"
+height="50"
 alt="LinkedIn"
 />
 </a>
