@@ -1,0 +1,24 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "37 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Akshith826
+          outputs: |
+            assets/github-contribution-snake.svg?palette=github-light
+            assets/github-contribution-snake-dark.svg?palette=github-dark
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "assets/github-contribution-snake.svg assets/github-contribution-snake-dark.svg"
+          message: "chore: update GitHub contribution visuals"
